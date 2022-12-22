@@ -1,2 +1,4 @@
-# python mini projects
- A Repository consisting of several python programs created in order to learn the language in detail. 
+# Python Mini-Projects
+
+A Repository consisting of several python programs created in order to learn the language in detail. 
+
