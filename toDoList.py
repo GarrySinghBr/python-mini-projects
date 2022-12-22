@@ -7,9 +7,12 @@ def main():
    fname = fname + ".txt"
    f = open(fname,"a")
    f.write("To-Do-List for " + user +":\n")
+   f.close()
    while True:
+        print(fname)
         menu = input("What would you like to do? (Add, View, or Quit): ")
         if menu == "Add":
+            f = open(fname,"a")
             add = input("What would you like to add?: ")
             f.write(add + "\n")
         elif menu == "View":
